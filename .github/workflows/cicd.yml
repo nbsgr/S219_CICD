@@ -45,4 +45,5 @@ jobs:
           git config --global user.name "nbsgr"
           git config --global user.email "balaganesh7944978@gmail.com"
           npm install -g gh-pages
+          npx gh-pages -d dist -u "nbsgr <balaganesh7944978@gmail.com>" -r https://x-access-token:${GITHUB_TOKEN}@github.com/nbsgr/S219_CICD.git
           gh-pages -d dist -r https://x-access-token:${GITHUB_TOKEN}@github.com/nbsgr/S219_CICD.git
